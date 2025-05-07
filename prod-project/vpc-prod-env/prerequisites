@@ -1,0 +1,7 @@
+mkdir cdk_ha_vpc
+cd cdk_ha_vpc
+cdk init app --language python
+
+# Install required libraries
+source .venv/bin/activate  # or .\cdk_ha_vpc\.venv\Scripts\activate on Windows
+pip install aws-cdk-lib constructs
